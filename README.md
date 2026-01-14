@@ -15,3 +15,13 @@ In this project, you will write a basic Dockerfile to create a Docker image. Whe
 You can learn more about writing a Dockerfile [here](https://docs.docker.com/engine/reference/builder/).
 
 If you are looking to build a more advanced version of this project, you can consider adding the ability to pass your name to the Docker image as an argument, and have the Docker image print "Hello, [your name]!" instead of "Hello, Captain!".
+
+## How To Run
+1. Build image
+```
+docker build -t basic-dockerfile .
+```
+2. Run image
+```
+docker run basic-dockerfile [optional-name]
+```
